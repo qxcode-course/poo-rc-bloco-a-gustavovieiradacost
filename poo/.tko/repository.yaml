@@ -1,0 +1,11 @@
+remote: https://github.com/qxcodepoo/arcade/blob/master/Readme.md
+lang: py
+filter:
+- BLOCO_A
+- BLOCO_B
+version: 0.0.1
+database: database
+expanded: []
+tasks: {}
+flags: {}
+index: ''
