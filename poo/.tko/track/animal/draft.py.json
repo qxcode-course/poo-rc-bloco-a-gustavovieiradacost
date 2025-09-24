@@ -1,0 +1,14 @@
+{
+    "patches": [
+        {
+            "label": "2025-09-24_14-36-32",
+            "content": "@@ -1,15 +1,15 @@\n class \n-A\n+a\n nimal:%0A \n@@ -221,25 +221,25 @@\n %0A    gato = \n-A\n+a\n nimal(%22gato%22\n@@ -280,17 +280,17 @@\n horro = \n-A\n+a\n nimal(%22c\n@@ -345,9 +345,9 @@\n a = \n-A\n+a\n nima\n",
+            "lines": "17"
+        },
+        {
+            "label": "2025-09-24_14-44-45",
+            "content": "class Animal:\n    def __init__(self, species, sound):\n        self.species = species \n        self.sound = sound\n        self.age = 0\n\n    def __init__(self):\n        return f\"{self.species}:{self.age}:{self.sound}\"\n    \n    gato = Animal(\"gato\", \"miau\")\n    print(gato)\n\n    cachorro = Animal(\"cachorro\",\"auau\")\n    print(cachorro)\n\n    galinha = Animal(\"galinha\", \"cocorico\")\n    print(\"galinha\")\n",
+            "lines": "17"
+        }
+    ]
+}
