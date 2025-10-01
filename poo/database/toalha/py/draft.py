@@ -1,4 +1,4 @@
-class Towel:
+enxugar: class Towel:
     def _init_(self, color: str, size: str):
         self.color: str = color
         self.size: str = size
