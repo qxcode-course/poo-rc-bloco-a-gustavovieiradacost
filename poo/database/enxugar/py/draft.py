@@ -1,5 +1,5 @@
 class Towel:
-    def _init_(self, color: str, size: str):
+    def __init__(self, color: str, size: str):
         self.color: str = color
         self.size: str = size
         self.wetness: int = 0
@@ -25,12 +25,12 @@ class Towel:
             return 30
         return 0
 
-    def _str_(self) -> str:
+    def __str__(self) -> str:
         return f"Cor: {self.color}, Tamanho: {self.size}, Umidade: {self.wetness}"
 
 
 def main():
-    towel: Towel = Towel("" , "")
+    towel: Towel = Towel("", "")
     while True:
 
         line: str = input()
@@ -54,5 +54,6 @@ def main():
             print(towel)
         else:
             print("fail: comando não encontrado")
+
 
 main()
